@@ -108,6 +108,11 @@ body {
 .recent-move-scissors {
     color: rgb(85, 167, 215);
 }
+.description{
+    position: fixed;
+    top: 320px;
+}
+
 .historyList {
     padding-left: 45px;
 }
@@ -232,7 +237,7 @@ body {
     top: 220px;
     right: 120px;
     z-index: 5;
-    border: solid rgb(25, 54, 54);
+    border: solid rgb(208, 153, 203);
     border-width: 1px;
     width: 200px;
     height: 370px;
