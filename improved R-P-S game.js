@@ -157,7 +157,7 @@ let playerMove;
         loginButton.addEventListener('click', () => {
             if (isLoginOpen === false){
 
-            bodyElement.style.filter = 'blur(100px)';
+            bodyElement.style.filter = 'blur(90px)';
             loginInput.classList.add('login-input');
             loginInput.innerHTML = ` <div class="login details">
             <button class="cancel-button" onclick="cancelLoginForm()">X</button>
